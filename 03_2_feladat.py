@@ -16,7 +16,7 @@ listaelemek = []
 
 while True:
     szam = int(input("Adjon meg egy számot: "))
-    if szam < 0:
+    if szam == 0:
         break
     listaelemek.append(szam)
 

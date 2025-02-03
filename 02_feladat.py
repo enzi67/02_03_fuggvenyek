@@ -8,7 +8,8 @@ ellenkező esetben a visszatérési érték False! A program tartalmazza a függ
 def paros_e(listaelemek):
     for elem in listaelemek:
         if elem % 2 != 0:
-            return False
-    return True
+            return True
+    return False
 
-print(paros_e([1, 8, 17, 22, 40]))
+
+print(f"A listában van páros szám: {paros_e([1, 8, 17, 22, 40])}")

@@ -11,4 +11,4 @@ def osszegzo(listaelemek):
         osszeg += elem
     return osszeg  
 
-print(osszegzo([1, 5, 9, 13, 29]))
+print(f"A számok összege: {osszegzo([1, 5, 9, 13, 29])}.")
